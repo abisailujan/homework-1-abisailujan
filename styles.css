@@ -1,0 +1,153 @@
+/* make html and body fit 100% of the view port (website) */
+
+html {
+    /* border: 2px solid red; */
+    height: 100%;   
+}
+
+body {
+    /* border: 2px solid green; */
+    height: 100%;
+    background-color: lightblue;
+}
+
+h1 {
+    color: #4F758B;
+}
+
+h2 {
+    color: #4F758B;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+/* classes start with a period*/
+.container {
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify horizontal alignment */
+    justify-content: center;
+    /* align items vertically */
+    align-items: start;
+    
+    /* row: left to right */
+    /* row-reverse: right to left */
+    /* column: vertical top to bottom */
+    /* column-reverse: bottom to top */
+    flex-direction: row;
+}
+
+.container-connect { 
+    border: 3px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* justify horizontal alignment */
+    justify-content: space-between;
+    /* align items vertically */
+    align-items: start;
+    
+    /* row: left to right */
+    /* row-reverse: right to left */
+    /* column: vertical top to bottom */
+    /* column-reverse: bottom to top */
+    flex-direction: row;
+}
+
+.container-hero {
+    height: 600px;
+    /* width will be a 100% not just 100 pixels */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+
+}
+
+.left-div {
+    height: 139px;
+    display: flex;
+    margin-right: 20%;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.container-about {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    align-items: start;
+    flex-direction: column;
+}
+
+.header {
+    border: 3px solid #4B9CD3;
+    height: 139px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: space-between;
+}
+.left-header {
+    height: 139px;
+    display: flex;
+    margin-right: 20%;
+    justify-content: start;
+
+}
+
+.right-header {
+    height: 139px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.red-text {
+    color: red;
+}
+
+.hero {
+    /* border: 2px solid blue; */
+    height: 600px;
+    /* width will be a 100% not just 100 pixels */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+}
+
+.left-box {
+    border: 3px solid #4B9CD3;
+    height: 100%;
+    width: 45%;
+    /* margin-right: 16px; */
+}
+
+.right-box {
+    border: 3px solid #4B9CD3;
+    height: 100%;
+    width: 45%;
+    /* margin-left: 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.light-blue-text {
+    color: lightblue;
+}
